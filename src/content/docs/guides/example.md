@@ -9,3 +9,9 @@ Writing a good guide requires thinking about what your users are trying to do.
 ## Further reading
 
 - Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+
+```mermaid
+%%{init: {'theme':'neutral'}}%%
+flowchart LR
+    A[SAP Addon] -->|notarize, render, ...| B[S1SEVEN API]
+```
